@@ -996,38 +996,6 @@ body {
   cursor: url('assets/img/cursor2.svg'), pointer;
 }
 
-/* .trainings-cards > .card > .overlay {
-  width: 300px;
-  height: 220px;
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(0deg, #777777, rgba(0, 0, 0, 0.15) );
-  opacity: 0;
-  transform: scale(0.1);
-  transition: 400ms ease-in;
-  z-index: -1;
-}
-
-.trainings-cards > .card:hover > .overlay {
-  transform: scale(1);
-  opacity: 1;
-  z-index: 1;
-}
-
-.trainings-cards > .card > .overlay:hoevr {
-  transform: scale(1);
-  opacity: 1;
-  z-index: 1;
-} */
-
-/* .trainings-cards > .card > .overlay > i {
-  color: rgb(247, 247, 247);
-  font-size: 40px;
-} */
-
 .backdrop {
   position: fixed;
   top: 0;
