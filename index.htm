@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="assets/icons/fontawesome/css/all.css">
 </head>
 
-<body>
-    <div class="home">
+<body class="light-mode">
+    <div class="home" id="home">
         <div class="home-container">
             <div class="home-text">
-                <h1>Ian Destura</h1>
+                <h1>Ian C. Destura</h1>
                 <br>
                 <p>
                     Web Designer & Developer <b>&#8226;</b>
@@ -28,8 +28,11 @@
                 <br>
                 <div class="home-text-buttons">
                     <a>My Resume</a>
-                    <div class="toogle">
-                        <div class="toogle-circle"></div>
+                    <div class="toogle-buttons">
+                        <div class="toogle">
+                            <div class="toogle-circle"></div>
+                        </div>
+                        <span>Dark Mode</span>
                     </div>
                 </div>
             </div>
@@ -44,7 +47,7 @@
             <div class="icon-img"></div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="about-container">
             <h1>About Me</h1>
             <div class="about-box">
@@ -70,7 +73,7 @@
     <div class="banner-1">
         <div class="banner-container" style="background-image: url('assets/img/banner-1.png');"></div>
     </div>
-    <div class="stacks">
+    <div class="stacks" id="stacks">
         <div class="stacks-container">
             <h1>My Tech Stacks</h1>
             <div class="stacks-box">
@@ -563,7 +566,7 @@
     <div class="banner-2">
         <div class="banner-container" style="background-image: url('assets/img/banner-2.png');"></div>
     </div>
-    <div class="services">
+    <div class="services" id="services">
         <div class="services-container">
             <h1>My Services</h1>
             <div class="services-box">
@@ -604,13 +607,13 @@
             <div class="banner-text">
                 <h1>Let's Work</h1>
                 <p>Let me join to your team</p>
-                <div>
+                <div class="hireMe">
                     Hire Me
                 </div>
             </div>
         </div>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
         <div class="projects-container">
             <h1>My Projects</h1>
             <div class="projects-box">
@@ -1146,8 +1149,69 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card hide-in-tablet-mobile-1"></div>
-                    <div class="card hide-in-tablet-mobile-2"></div>
+                    <div class="card hide-in-tablet-mobile-1" style="visibility: hidden;"></div>
+                    <div class="card hide-in-tablet-mobile-2" style="visibility: hidden;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="trainings" id="trainings">
+        <div class="trainings-container">
+            <h1>Seminars & Trainings</h1>
+            <div class="trainings-box">
+                <div class="trainings-cards">
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/1e-Certificates\ -\ Top\ 3\ Demo\ Picks\ by\ WEBSITESADVICE\ 2021.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/2e-Certificates\ -\ Web\ Hosting\ Providers_\ Discovering\ What\'s\ Best\ for\ You!\ eCertificates.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/3e-Certificates\ -\ Web\ Hosting_\ All\ You\ Need\ to\ Know\ Re-Run.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/4e-Certificates\ -\ Website\ building\ 101.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/5e-Certificates\ -\ WordPress\ Explained_\ An\ Introduction\ 2021\ Re-run.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/6e-Certificates\ -\ WordPress\ Explained_\ Dashboard\ Navigation\ 2021.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/7e-Certificates\ -\ Cybersecurity\ Fundamentals.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/8e-Certificates\ -\ Data\ Processing\ A\ Skill\ Everyone\ Needs.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/9e-Certificates\ -\ Introduction\ to\ Careers\ in\ Cybersecurity.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/10e-Certificates\ -\ Introduction\ to\ Email\ Threats\ and\ Security\ Attacks.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/11e-Certificates\ -\ Cybersecurity\ Essentials.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/12e-Certificates\ -\ Get\ Connected\ -\ Certificate.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/13e-Certificates\ -\ Introduction\ to\ Cybersecurity.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/14e-Certificates\ -\ Introduction\ to\ IoT.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/15e-Certificates\ -\ Introduction\ to\ Packet\ Tracer.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/16e-Certificates\ -\ NDG\ Linux\ Unhatched.png');">
+                    </div>
+                    <div class="card"
+                        style="background-image: url('assets/img/trainings/17e-Certificates\ -\ Networking\ Essentials.png');">
+                    </div>
+                    <div class="card hide-in-tablet-mobile-3" style="visibility: hidden;"></div>
                 </div>
             </div>
         </div>
@@ -1157,7 +1221,7 @@
             <div class="banner-text">
                 <h1>Get To Know Me More</h1>
                 <p>Knowing me is just like your codes, rough.</p>
-                <div>
+                <div class="getTouch">
                     Get Touch
                 </div>
             </div>
@@ -1166,7 +1230,7 @@
             </div>
         </div>
     </div>
-    <div class="connect">
+    <div class="connect" id="connect">
         <div class="connect-container">
             <h1>Let's Connect</h1>
             <div class="connect-box">
@@ -1201,7 +1265,7 @@
                             <img src="assets/img/connect/whatsapp.png" alt="">
                         </div>
                         <div class="card card-9">
-                            <img src="assets/img/connect/viber.png" alt="">
+                            <img src="assets/img/connect/link.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -1211,7 +1275,7 @@
     <div class="banner-5">
         <div class="banner-container" style="background-image: url('assets/img/banner-5.png');"></div>
     </div>
-    <div class="page">
+    <div class="page" id="page">
         <div class="page-container">
             <div class="page-image">
                 <img src="assets/img/page.png" alt="">
@@ -1224,8 +1288,7 @@
                     mainly purpose is to provide ideas, tricks, cheat sheets, and trivia using visual content.
                 </p>
                 <br>
-                <br>
-                <a>Follow Now</a>
+                <div class="followNow">Follow Now</div>
             </div>
         </div>
     </div>
@@ -1244,30 +1307,31 @@
                     <br>
                     <div class="navs">
                         <h1>Navigations</h1>
-                        <a><b>&#8226;</b> HOME</a>
-                        <a><b>&#8226;</b> ABOUT ME</a>
-                        <a><b>&#8226;</b> MY TECH STACKS</a>
-                        <a><b>&#8226;</b> MY SERVICES</a>
-                        <a><b>&#8226;</b> SEMINARS & TRAININGS</a>
-                        <a><b>&#8226;</b> LET'S CONNECT</a>
-                        <a><b>&#8226;</b> AIYUUU TUTORIAL</a>
+                        <a href="#home"><b>&#8226;</b> HOME</a>
+                        <a href="#about"><b>&#8226;</b> ABOUT ME</a>
+                        <a href="#stacks"><b>&#8226;</b> MY TECH STACKS</a>
+                        <a href="#services"><b>&#8226;</b> MY SERVICES</a>
+                        <a href="#projects"><b>&#8226;</b> MY PROJECTS</a>
+                        <a href="#trainings"><b>&#8226;</b> SEMINARS & TRAININGS</a>
+                        <a href="#connect"><b>&#8226;</b> LET'S CONNECT</a>
+                        <a href="#page"><b>&#8226;</b> AIYUUU TUTORIAL</a>
                     </div>
                 </div>
                 <div class="footer-connect">
                     <div class="connects">
                         <h1>Let's Connect</h1>
                         <div class="connect-icon">
-                            <img src="assets/img/icons/facebook 2.png" alt="">
-                            <img src="assets/img/icons/instagram 2.png" alt="">
-                            <img src="assets/img/icons/youtube 2.png" alt="">
-                            <img src="assets/img/icons/github.png" alt="">
-                            <img src="assets/img/icons/dev 2.png" alt="">
+                            <img class="fb" src="assets/img/icons/facebook 2.png" alt="">
+                            <img class="insta" src="assets/img/icons/instagram 2.png" alt="">
+                            <img class="yt" src="assets/img/icons/youtube 2.png" alt="">
+                            <img class="github" src="assets/img/icons/github.png" alt="">
+                            <img class="dev" src="assets/img/icons/dev 2.png" alt="">
                         </div>
                         <br>
                         <div class="connect-icon">
-                            <img src="assets/img/icons/whatsapp 2.png" alt="">
-                            <img src="assets/img/icons/viber 2.png" alt="">
-                            <img src="assets/img/icons/telegram 2.png" alt="">
+                            <img class="whatsapp" src="assets/img/icons/whatsapp 2.png" alt="">
+                            <img class="linkedin" src="assets/img/icons/link.png" alt="">
+                            <img class="telegram" src="assets/img/icons/telegram.png" alt="">
                         </div>
                     </div>
                     <div class="page">
@@ -1286,6 +1350,144 @@
             <p>COPYRIGHT &copy; 2021</p>
         </div>
     </div>
+    <div class="light-box">
+        <div class="backdrop" style="display: none;">
+            <img src=""/>
+        </div>
+    </div>
 </body>
+<script src="assets/js/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.toogle-buttons').on('click', function (e) {
+
+            if (!$('body').hasClass('dark-mode')) {
+                $('.toogle-circle').css({
+                    'margin': '3px 3px 3px 29px',
+                    'background': '#194660',
+                });
+                $('.toogle').css({
+                    'background': 'white',
+                });
+                $('body').removeClass('light-mode');
+                $('body').addClass('dark-mode');
+            } else {
+                $('.toogle-circle').css({
+                    'margin': '3px 3px 3px 3px',
+                    'background': 'white',
+                });
+                $('.toogle').css({
+                    'background': 'linear-gradient(90deg, #008ef2 0%, #00dbfb 100%)',
+                });
+                $('body').removeClass('dark-mode');
+                $('body').addClass('light-mode');
+            }
+        });
+
+        $('.getTouch').on('click', function () {
+            window.location.href = "#connect"
+        });
+
+        $('.hireMe').on('click', function () {
+            window.location.href = "#home"
+        });
+
+        $('.card-1').on('click', function () {
+            window.open("https://www.youtube.com/channel/UCAk00EuqB-6lsQUV8rqNkSg");
+        });
+
+        $('.card-2').on('click', function () {
+            window.open("https://t.me/Yanny_033119");
+        });
+
+        $('.card-3').on('click', function () {
+            window.open("https://www.instagram.com/idestura033119/");
+        });
+
+        $('.card-4').on('click', function () {
+            window.open("https://www.facebook.com/aiyuuututorial310");
+        });
+
+        $('.card-5').on('click', function () {
+            window.open("https://github.com/Aiyuuu033119");
+        });
+
+        $('.card-6').on('click', function () {
+            window.open("https://www.facebook.com/AIYUUU.03.31.19.Yanny");
+        });
+
+        $('.card-7').on('click', function () {
+            window.open("https://dev.to/aiyuuu033119");
+        });
+
+        $('.card-8').on('click', function () {
+            window.open("https://api.whatsapp.com/send?phone=639263665735");
+        });
+
+        $('.card-9').on('click', function () {
+            window.open("https://www.linkedin.com/in/ian-destura-54a7771a8/");
+        });
+
+        $('.mypage').on('click', function () {
+            window.open("https://www.facebook.com/aiyuuututorial310");
+        });
+
+        $('.followNow').on('click', function () {
+            window.open("https://www.facebook.com/aiyuuututorial310");
+        });
+
+        $('.fb').on('click', function () {
+            window.open("https://www.facebook.com/AIYUUU.03.31.19.Yanny");
+        });
+
+        $('.insta').on('click', function () {
+            window.open("https://www.instagram.com/idestura033119/");
+        });
+
+        $('.yt').on('click', function () {
+            window.open("https://www.youtube.com/channel/UCAk00EuqB-6lsQUV8rqNkSg");
+        });
+
+        $('.github').on('click', function () {
+            window.open("https://github.com/Aiyuuu033119");
+        });
+
+        $('.dev').on('click', function () {
+            window.open("https://dev.to/aiyuuu033119");
+        });
+
+        $('.whatsapp').on('click', function () {
+            window.open("https://api.whatsapp.com/send?phone=639263665735");
+        });
+
+        $('.linkedin').on('click', function () {
+            window.open("https://www.linkedin.com/in/ian-destura-54a7771a8/");
+        });
+
+        $('.telegram').on('click', function () {
+            window.open("https://t.me/Yanny_033119");
+        });
+
+        $('.trainings-cards > .card').on('click', function () {
+            var image = $(this).attr('style').replace("background-image: url('", "");
+            image = image.replace("');","");
+            image = image.replace(/\\/g,"");
+            console.log(image.replace("');",""));
+            $('.backdrop > img').attr('src',image);
+            $('.backdrop').attr('style',"display:flex");
+        });
+
+        $(document).on('click', '.backdrop',function () {
+            $('.backdrop').attr('style',"display:none");
+
+        });
+
+        $(document).on('click', '.backdrop > img',function (e) {
+            e.stopPropagation();
+        });
+
+        
+    });
+</script>
 
 </html>
